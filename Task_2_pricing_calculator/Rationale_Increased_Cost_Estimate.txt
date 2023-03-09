@@ -1,0 +1,17 @@
+We will deploy on 2 more AZs for more availability, smaller latency
+Add-on more and upgrade some services: 
+- WAF: protect Cloudfront
+- Route53 : for web and app ALB
+- CloudFront: add more edge location
+- VPC:
+    - Increase number of NAT gateway due to increase AZ to deploy on
+- Web server EC2:
+    - Increase number of instances (deploy on more AZ)
+    - Enable monitoring
+    - Upgrade instance type
+- App server EC2:
+    - Increase number of instances (deploy on more AZ)
+    - Enable monitoring
+- AWS Aurora:
+    - Upgrade instance type: -> stronger -> Increase Performance
+    - Upgrade storage
