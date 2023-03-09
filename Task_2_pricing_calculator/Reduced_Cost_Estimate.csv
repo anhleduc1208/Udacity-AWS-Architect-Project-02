@@ -1,0 +1,24 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+3.14573,6346.693999999999,76163.47,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),S3 bucket,S3 Standard,3.14573,1175.86,14113.47,USD,"S3 Standard storage (30 TB per month), S3 Standard Average Object Size (50 MB)"
+My Estimate,US East (N. Virginia),S3 bucket,S3 Standard - Infrequent Access,0,0,0.00,USD,S3 Standard-IA storage (0 GB per month)
+My Estimate,US East (N. Virginia),S3 bucket,S3 Glacier Instant Retrieval,0,0.04,0.48,USD,S3 Glacier Instant Retrieval storage (10 GB per month)
+My Estimate,US East (N. Virginia),S3 bucket,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (20 TB per month)"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,526.5,6318.00,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Cloudfront,Amazon CloudFront,0,485.2,5822.40,USD,"Data transfer out to internet (5 TB per month), Data transfer out to origin (0 GB per month), Number of requests (HTTPS) (50 million per month)"
+My Estimate,US East (N. Virginia),Web ALB,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),App LB,Application Load Balancer,0,1476.43,17717.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Web server,Amazon EC2 ,0,569.4,6832.80,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 4), Enable monitoring (disabled), Advance EC2 instance (m5.2xlarge), Pricing strategy ( 3 Year  None upfront), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),App Servers,Amazon EC2 ,0,1229.904,14758.85,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 6), Enable monitoring (disabled), Advance EC2 instance (c7g.4xlarge), Pricing strategy ( 3 Year  None upfront), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),DB,Amazon Aurora MySQL-Compatible,0,282.92999999999995,3395.16,USD,"Change records per statement (0.38), Instance Type (db.r3.xlarge), Nodes (1), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (50 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

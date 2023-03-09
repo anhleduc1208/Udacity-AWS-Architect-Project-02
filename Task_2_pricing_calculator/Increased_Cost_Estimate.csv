@@ -1,0 +1,26 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+3.14573,18635.602,223630.37,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),S3 bucket,S3 Standard,3.14573,1175.86,14113.47,USD,"S3 Standard storage (30 TB per month), S3 Standard Average Object Size (50 MB)"
+My Estimate,US East (N. Virginia),S3 bucket,S3 Standard - Infrequent Access,0,0,0.00,USD,S3 Standard-IA storage (0 GB per month)
+My Estimate,US East (N. Virginia),S3 bucket,S3 Glacier Instant Retrieval,0,0.04,0.48,USD,S3 Glacier Instant Retrieval storage (10 GB per month)
+My Estimate,US East (N. Virginia),S3 bucket,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (20 TB per month)"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,1053,12636.00,USD,Number of NAT Gateways (4)
+My Estimate,US East (N. Virginia),Cloudfront,Amazon CloudFront,0,2732.4799999999996,32789.76,USD,"Data transfer out to internet (5 TB per month), Data transfer out to origin (0 GB per month), Number of requests (HTTPS) (50 million per month), Data transfer out to internet (5 TB per month), Data transfer out to origin (0 GB per month), Number of requests (HTTPS) (50 million per month), Data transfer out to internet (5 TB per month), Number of requests (HTTPS) (50 million per month), Data transfer out to internet (5 TB per month), Number of requests (HTTPS) (50 million per month), Data transfer out to internet (5 TB per month), Data transfer out to origin (0 GB per month), Number of requests (HTTPS) (50 million per month)"
+My Estimate,US East (N. Virginia),Web ALB,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),App LB,Application Load Balancer,0,1476.43,17717.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Web server,Amazon EC2 ,0,2049.12,24589.44,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 8), Enable monitoring (enabled), Advance EC2 instance (m5a.4xlarge), Pricing strategy ( 3 Year  None upfront), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),App Servers,Amazon EC2 ,0,3296.5440000000003,39558.53,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 8), Enable monitoring (enabled), Advance EC2 instance (c7g.8xlarge), Pricing strategy ( 3 Year  None upfront), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),DB,Amazon Aurora MySQL-Compatible,0,5697.698,68372.38,USD,"Change records per statement (0.38), Instance Type (db.r6g.8xlarge), Nodes (2), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (No Upfront), Storage amount (10 TB)"
+My Estimate,US East (N. Virginia),WAF for cloudfront,AWS Web Application Firewall (WAF),0,228,2736.00,USD,"Number of Web Access Control Lists (Web ACLs) utilized (5 per month), Number of Rules added per Web ACL (5 per month), Number of Rule Groups per Web ACL (5 per month), Number of Rules inside each Rule Group (5 per month), Number of Managed Rule Groups per Web ACL (5 per month)"
+My Estimate,US East (N. Virginia),Domain,Amazon Route 53,0,326,3912.00,USD,"Hosted Zones (1), Additional Records in Hosted Zones (2), Basic Checks Within AWS (2), Number of Elastic Network Interfaces (2), Number of domains stored (2)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

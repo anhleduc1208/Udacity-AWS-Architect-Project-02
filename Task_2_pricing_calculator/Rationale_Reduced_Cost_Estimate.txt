@@ -1,0 +1,5 @@
+To optimize to cost, I choose to update on these resources:
+
+- Database: Switch from AWS RDS for MySQL to AWS Aurora MySQL compatible
+- EC2: Change type from OnDemand to Reserved Instance for smaller cost
+- S3: Setup lifecircle policy to store and archive infrequent access object to another class (S3 - IA, S3 Glacier)
